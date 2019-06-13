@@ -15,9 +15,7 @@ new Vue({
   el: '#app',
   router,
   components: {
-    App,
-    NavBar,
-    Footer
+    App
   },
   template: '<App/>',
   mode: 'history'
