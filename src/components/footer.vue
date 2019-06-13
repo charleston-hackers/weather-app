@@ -7,7 +7,11 @@
 
 
 <script>
-export default {
-  name: 'Footer'
-}
+
+
+Vue.component('Footer', {
+  export default {
+    name: 'Footer'
+  }
+})
 </script>
