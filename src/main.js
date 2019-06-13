@@ -5,6 +5,11 @@ import App from './App'
 import router from './router'
 require('@/style/styles.css')
 
+import NavBar from './components/NavBar.vue';
+import Footer from './components/Footer.vue';
+Vue.component('Footer', Footer);
+Vue.component('NavBar', NavBar);
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
