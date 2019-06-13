@@ -10,10 +10,6 @@
 <script>
 
 export default {
-  name: 'App',
-  components: {
-    NavBar,
-    Footer
-  }
+  name: 'App'
 }
 </script>
