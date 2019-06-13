@@ -9,9 +9,7 @@
 <script>
 
 
-Vue.component('Footer', {
-  export default {
-    name: 'Footer'
-  }
-})
+export default {
+  name: 'Footer'
+}
 </script>
