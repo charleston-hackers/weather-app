@@ -39,7 +39,7 @@ export default {
       zipCode: '',
       celcius: false,
       apiKey: '6d4b44ccad1f2520a63a7d7c42719e45',
-      urlPartial: "http://api.openweathermap.org/data/2.5/weather?zip=",
+      urlPartial: "https://api.openweathermap.org/data/2.5/weather?zip=",
       currentTemp: '',
       minTemp: '',
       maxTemp:'',
