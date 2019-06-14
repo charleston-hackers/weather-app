@@ -2,8 +2,8 @@
   <nav>
     <p class='navTitle'>Vue Local Weather App</p>
     <ul>
-      <li><a class='navLink' href='/'>Home</a></li>
-      <li><a class='navLink' href='/5-Day-Forecast'>5 Day Forecast</a></li>
+      <router-link class='navLink' to='/'>Home</router-link>
+      <router-link class='navLink' to='/5-Day-Forecast'>5 Day Forecast</router-link>
     </ul>
   </nav>
 </template>
