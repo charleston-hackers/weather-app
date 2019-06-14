@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import FiveDayForecast from '@/components/FiveDayForecast'
-import CurrentForecast from '@/components/CurrentForecast'
+import FiveDayForecast from '../components/FiveDayForecast.vue'
+import CurrentForecast from '../components/CurrentForecast.vue'
 
 Vue.use(Router)
 
