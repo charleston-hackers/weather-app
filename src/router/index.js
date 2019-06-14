@@ -34,10 +34,6 @@ export default new Router({
           }
         ]
       }
-    },
-    {
-        path: '*',
-        component: PageNotFound
     }
   ],
   mode: 'history'
