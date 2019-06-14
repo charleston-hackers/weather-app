@@ -2,8 +2,8 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
-import Footer from './components/Footer.vue'
-import NavBar from './components/NavBar.vue'
+import Footer from './components/footer.vue'
+import NavBar from './components/navBar.vue'
 import router from './router'
 require('@/style/styles.css')
 
