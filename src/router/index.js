@@ -10,30 +10,17 @@ export default new Router({
     {
       path: '/',
       name: 'CurrentForecast',
-      component: CurrentForecast,
-      meta: {
-        title: 'Current Weather | Local forecast by zip code',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'Get the current weather forecast by zip code.'
-          }
-        ]
-      }
+      component: CurrentForecast
     },
     {
       path: '/5-Day-Forecast',
       name: 'FiveDayForecast',
-      component: FiveDayForecast,
-      meta: {
-        title: '5 Day Forecast | Local 5 day forecast by zip code',
-        metaTags: [
-          {
-            name: 'description',
-            content: 'Get 5 day weather forecast by zip code.'
-          }
-        ]
-      }
+      component: FiveDayForecast
+    },
+    {
+      path: '*',
+      component: CurrentForecast
     }
-  ]
+  ],
+    mode: 'history'
 })
